@@ -1,0 +1,33 @@
+apply plugin: 'java'
+apply plugin: 'shadow'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name 'Shadow'
+            url 'http://dl.bintray.com/content/johnrengelman/gradle-plugins'
+        }
+    }
+    dependencies {
+        classpath 'org.gradle.plugins:shadow:0.7.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://repo.bodar.com/"
+    }
+}
+
+dependencies {
+    compile 'com.googlecode.utterlyidle:utterlyidle:733'
+}
+
+version = '0.1'
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.scon.HelloWorldResource'
+    }
+}
