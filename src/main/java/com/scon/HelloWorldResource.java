@@ -1,9 +1,13 @@
 package com.scon;
 
+import com.googlecode.utterlyidle.annotations.GET;
+import com.googlecode.utterlyidle.annotations.Path;
+
+@Path("/")
 public class HelloWorldResource {
 
-    public static void main(String[] args) {
-        System.out.println("empty = " );
+    @GET
+    public String index() {
+        return "Hello World";
     }
-
 }
