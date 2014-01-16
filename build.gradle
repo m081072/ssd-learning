@@ -33,4 +33,8 @@ jar {
     }
 }
 
+shadow {
+    baseName 'app'
+}
+
 task stage(dependsOn: ['clean', 'shadowJar'])
