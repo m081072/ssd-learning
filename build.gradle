@@ -32,3 +32,5 @@ jar {
         attributes 'Main-Class': 'com.scon.Application'
     }
 }
+
+task stage(dependsOn: ['clean', 'shadowJar'])

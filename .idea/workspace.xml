@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ec8e669-a2b8-4afe-b34d-c5fd57ad1b49" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ssd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,7 +102,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="25" selection-start="55" selection-end="55" vertical-scroll-proportion="0.022941971" vertical-offset="0" max-vertical-offset="741">
+            <state line="35" column="42" selection-start="637" selection-end="637" vertical-scroll-proportion="0.802969" vertical-offset="0" max-vertical-offset="741">
               <folding />
             </state>
           </provider>
@@ -643,7 +642,7 @@
       <updated>1389379149619</updated>
       <workItem from="1389379151023" duration="3512000" />
       <workItem from="1389653667100" duration="11000" />
-      <workItem from="1389682177067" duration="8897000" />
+      <workItem from="1389682177067" duration="9668000" />
     </task>
     <task id="LOCAL-00001" summary="adding travis config&#10;">
       <created>1389728684304</created>
@@ -657,7 +656,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12420000" />
+    <option name="totallyTimeSpent" value="13191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="22" width="1440" height="874" extended-state="6" />
@@ -831,7 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="55" selection-end="55" vertical-scroll-proportion="0.022941971" vertical-offset="0" max-vertical-offset="741">
+        <state line="35" column="42" selection-start="637" selection-end="637" vertical-scroll-proportion="0.802969" vertical-offset="0" max-vertical-offset="741">
           <folding />
         </state>
       </provider>
