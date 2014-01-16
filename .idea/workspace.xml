@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec8e669-a2b8-4afe-b34d-c5fd57ad1b49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ssd.iws" />
@@ -122,7 +123,7 @@
       <file leaf-file-name=".travis.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.067639254" vertical-offset="0" max-vertical-offset="754">
+            <state line="7" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.1605938" vertical-offset="0" max-vertical-offset="741">
               <folding />
             </state>
           </provider>
@@ -642,12 +643,17 @@
       <updated>1389379149619</updated>
       <workItem from="1389379151023" duration="3512000" />
       <workItem from="1389653667100" duration="11000" />
-      <workItem from="1389682177067" duration="3393000" />
+      <workItem from="1389682177067" duration="7526000" />
     </task>
+    <task id="LOCAL-00001" summary="adding travis config&#10;">
+      <created>1389728684304</created>
+      <updated>1389728684304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6916000" />
+    <option name="totallyTimeSpent" value="11049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="22" width="1440" height="874" extended-state="6" />
@@ -715,6 +721,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="adding travis config&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding travis config&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -818,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.067639254" vertical-offset="0" max-vertical-offset="754">
+        <state line="7" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.1605938" vertical-offset="0" max-vertical-offset="741">
           <folding />
         </state>
       </provider>
