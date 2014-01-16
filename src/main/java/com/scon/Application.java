@@ -9,6 +9,13 @@ import static com.googlecode.utterlyidle.ServerConfiguration.defaultConfiguratio
 public class Application {
     public static void main(String[] args) {
         final RestApplication application = new RestApplication(basePath("/"), new HelloWorldModule());
-        application(application).start(defaultConfiguration().port(8000));
+        application(application).start(defaultConfiguration().port(port(args)));
+    }
+
+    private static int port(String []args) {
+        if(args.length == 1) {
+            return Integer.parseInt(args[0]);
+        }
+        return 8000;
     }
 }
